@@ -46,7 +46,7 @@ body {
 	}
 }
 
-.Review {
+.blogpagecut {
   background-color:hsl(0, 0%, 98%); 
   margin-top: 65px; 
   margin-left: auto;
@@ -59,9 +59,21 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
 }
 
+.reviewpagecut {
+  background-color:hsl(0, 0%, 98%); 
+  margin-top: 65px; 
+  margin-left: auto;
+  padding: auto; 
+  height: auto; 
+  width: 1100px; 
+  border-bottom-left-radius: 5px; 
+  border-bottom-right-radius: 5px;
+  text-align: centre; 
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+}
 h3 {
   padding-left: auto;
-  color:rgb(227, 231, 162);
+  color:rgb(223, 166, 11);
   display: inline;
   
 }
@@ -78,17 +90,6 @@ h1 {
   font-size: 90px;
 }
 
-h4 {
-  text-align: center;
-  color: teal;
-  float: right;
-  padding: -23px;
-  position: relative;
-  top: -40px;
-  left: 84px;
-  right: 7px;
-}
-
 .section1 {
   font-size: 45px;
 }
@@ -97,6 +98,13 @@ h4 {
   font-size: 45px;
 }
 
+.section3 {
+  font-size: 45px;
+}
+
+.section4 {
+  font-size: 45px;
+}
 
 h2 {
   color: rgb(157, 226, 211);
@@ -119,18 +127,20 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  float: right;
-  padding: -25px;
   position: relative;
-  top: -100px;
-  left: -6px;
+  bottom: -44px;
+}
+.About {
+color: black;
+text-align: center;
 }
 
 h5 {
 color: black;
+font-size: 20px;
 
 }
 .navbar {
@@ -139,6 +149,7 @@ color: black;
   margin-top: -33px;
   background-color: hsl(0, 0%, 98%); 
   height: 50px;
+  font-size: 100px;
 }
 
 .navbar a {
@@ -146,10 +157,9 @@ color: black;
   padding: 12px 0;
   color: rgb(23, 75, 105);
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   width: 10%;
   text-align: center;
-  font-size: 12px;
 }
 
 .navbar a:hover {
@@ -165,4 +175,65 @@ color: black;
     float: none;
     display: block;
   }
+}
+
+ .overlapping1 {
+   position: relative;
+   z-index: 1;
+   top: 0px;
+   color: rgb(62, 136, 136);
+   font-size: 78px;
+   text-align: center;
+ }
+
+.overlapping2 {
+  position: relative;
+  z-index: 2;
+  top: -136px;
+  color: rgb(115, 128, 105);
+  font-size: 78px;
+  text-align: center;
+}
+
+.overlapping3 {
+  position: relative;
+  z-index: 3;
+  top: -271px;
+  font-size: 78px;
+  color: teal;
+  text-align: center;
+}
+
+.overlapping4 {
+  position: relative;
+  z-index: 4;
+  font-size: 78px;
+  top: -406px;
+  color: rgb(128, 148, 165);
+  text-align: center;
+}
+
+.overlapping5 {
+  position: relative;
+  z-index: 5;
+  font-size: 78px;
+  top: -541px;
+  color: rgb(44, 44, 150);
+  text-align: center;
+}
+.overlapping6 {
+  position: relative;
+  z-index: 6;
+  font-size: 78px;
+  top: -677px;
+  color: rgb(98, 80, 116);
+  text-align: center;
+}
+.overlapping7 {
+  position: relative;
+  z-index: 7;
+  top: -814px;
+  font-size: 78px;
+  color: pink;
+  text-align: center;
 }
