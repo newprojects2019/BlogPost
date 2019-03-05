@@ -7,7 +7,8 @@ body {
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  background-attachment: fixed;
 }
 
 @-webkit-keyframes Gradient {
@@ -197,9 +198,12 @@ font-size: 20px;
 }
 
 img {
-  width: 500px;
-  height: 333px;
-  position: absolute;
+  width: 440px;
+  height: 160px;
+  margin-left: 60px;
+  margin-right: auto;
+  display: block;
+  
 }
 
 @media screen and (max-width: 1100px) {
