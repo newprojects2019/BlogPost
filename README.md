@@ -1,4 +1,4 @@
-BLOG POST
+BLOG POST PROJECT
 
 This project is a front end project, involving HTML 5 and CSS3.
 
